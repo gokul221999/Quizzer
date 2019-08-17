@@ -77,3 +77,11 @@ body{
 	background: #08038C;
 	color: #f6f6f6;
 }
+
+
+@media only screen and (max-width:500px) {
+	
+	.container, .title, .question, .option, .next-btn, .result, .next-btn:hover, .option:hover {
+	  width: 100%;
+	}
+  }
