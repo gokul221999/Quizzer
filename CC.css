@@ -81,7 +81,11 @@ body{
 
 @media only screen and (max-width:500px) {
 	
-	.container, .title, .question, .option, .next-btn, .result, .next-btn:hover, .option:hover {
+	 .title, .question, .option, .next-btn, .result, .next-btn:hover, .option:hover {
 	  width: 100%;
+	}
+	.container {
+		width: 100%;
+		padding: 80px;
 	}
   }
